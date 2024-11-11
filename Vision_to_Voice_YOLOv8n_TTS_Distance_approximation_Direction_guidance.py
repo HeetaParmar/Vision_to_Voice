@@ -432,7 +432,7 @@ print("Processing complete. Output video saved.")
 import os
 
 # Set the specified path as the current working directory
-os.chdir("C:\\Users\\Aniruddha\\Desktop\\Vision_To_Voice\\YOLOv8nano_TFLite_model")
+os.chdir("C:\\Users\\Desktop\\Vision_To_Voice\\YOLOv8nano_TFLite_model")
 
 # Verify the current working directory
 print("Current Working Directory:", os.getcwd())
@@ -446,7 +446,7 @@ import cv2
 
 # Load your custom-trained YOLO model
 # Replace your best.pt file according to your current wroking directory
-model = YOLO(r"C:\Users\Aniruddha\Desktop\Vision_To_Voice\YOLOv8nano_TFLite_model\runs\detect\yolov8_custom\weights\best.pt")
+model = YOLO(r"C:\Users\Desktop\Vision_To_Voice\YOLOv8nano_TFLite_model\runs\detect\yolov8_custom\weights\best.pt")
 
 # Define object size estimates and class category mapping
 object_size_estimates = {
